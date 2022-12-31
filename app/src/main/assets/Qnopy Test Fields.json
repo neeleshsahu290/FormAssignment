@@ -1,0 +1,85 @@
+{
+  "fields": [
+    {
+      "isRequiredField": false,
+      "options": [
+        {
+          "itemId": "12459",
+          "itemName": "Test Vendor"
+        }
+      ],
+      "title": "Vendor Id",
+      "type": "PICKER"
+    },
+    {
+      "isRequiredField": true,
+      "options": [
+        {
+          "itemId": "1245",
+          "itemName": "Site1"
+        },
+        {
+          "itemId": "3657",
+          "itemName": "Site2"
+        },
+        {
+          "itemId": "4896",
+          "itemName": "Site3"
+        },
+        {
+          "itemId": "4527",
+          "itemName": "Site4"
+        }
+      ],
+      "title": " Vendor Site Id",
+      "type": "PICKER"
+    },
+    {
+      "isRequiredField": true,
+      "options": [
+        {
+          "itemId": "Order Shipped",
+          "itemName": "Order Shipped"
+        },
+        {
+          "itemId": "Order Confirmed",
+          "itemName": "Order Confirmed"
+        },
+        {
+          "itemId": "Ordered",
+          "itemName": "Ordered"
+        },
+        {
+          "itemId": "Order Returned",
+          "itemName": "Order Returned"
+        },
+        {
+          "itemId": "Order Completed",
+          "itemName": "Order Completed"
+        }
+      ],
+      "title": "Order Status",
+      "type": "RADIOBUTTON"
+    },
+    {
+      "isRequiredField": false,
+      "title": "Date Equipment Needed",
+      "type": "DATE"
+    },
+    {
+      "isRequiredField": false,
+      "title": "Ship To",
+      "type": "TEXT"
+    },
+    {
+      "isRequiredField": false,
+      "title": "Item Needed",
+      "type": "TEXT"
+    },
+    {
+      "isRequiredField": false,
+      "title": "Invoice Total",
+      "type": "NUMERIC"
+    }
+  ]
+}

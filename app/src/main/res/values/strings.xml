@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FormAssignment</string>
+    <string name="clearall" >clear</string>
+    <string name="dialog_close_button">Close</string>
+
+
+</resources>
